@@ -1,0 +1,14 @@
+package laptrinhhuongdoituong.lesson.learning;
+
+import mypackage.lesson.learning.Student;
+
+class LapTrinhHuongDoiTuong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student studentA = new Student("Teo", 21, 1.76f, "University of Technology");
+		
+		studentA.getInfo();
+	}
+
+}

@@ -1,0 +1,29 @@
+package oop.exercise.lesson1;
+
+public class Worker extends Manager {
+
+	private int level;
+	
+	public Worker(String fullName, int age, String gender, String address, int level) {
+		super(fullName, age, gender, address);
+		// TODO Auto-generated constructor stub
+		this.setLevel(level);
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public void setLevel(int level) {
+		if(level >= 1 && level <= 10)
+		this.level = level;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Staff{" + "task =";
+	}
+
+	
+}

@@ -1,0 +1,5 @@
+package mypackage.lesson.learning;
+
+public interface ISpeak {
+	void speak();
+}

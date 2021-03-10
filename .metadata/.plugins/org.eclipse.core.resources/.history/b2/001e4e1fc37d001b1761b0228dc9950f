@@ -1,0 +1,11 @@
+package laptrinhhuongdoituong.lesson.learning;
+
+class LapTrinhHuongDoiTuong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person a = new Person("Quoc");
+		a.Eat("Com tam");
+	}
+
+}

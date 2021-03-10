@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicLong"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="com.example.restservice.Greeting"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="laptrinhhuongdoituong.lesson.learning.Person"/>
+    <fullyQualifiedTypeName name="mypackage.lesson.learning.Example"/>
+    <fullyQualifiedTypeName name="laptrinhhuongdoituong.lesson.learning.LapTrinhHuongDoiTuong"/>
+    <fullyQualifiedTypeName name="mypackage.lesson.learning.Person"/>
+    <fullyQualifiedTypeName name="mypackage.lesson.learning.Student"/>
+    <fullyQualifiedTypeName name="mypackage.lesson.learning.IStudy"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="oop.exercise.lesson1.Manager"/>
+</qualifiedTypeNameHistroy>

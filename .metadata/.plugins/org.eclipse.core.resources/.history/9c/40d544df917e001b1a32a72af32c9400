@@ -1,0 +1,50 @@
+package mypackage.lesson.learning;
+
+public class Student extends Person {
+
+	private String universityName;
+	private int mathScore;
+	private int physicsScore;
+	
+	public Student(String name, int age, float height, String universityName) {
+		super(name, age, height);
+		// TODO Auto-generated constructor stub
+		this.setUniversityName(universityName);
+	}
+	
+	public int getMathScore() {
+		return mathScore;
+	}
+
+	public void setMathScore(int mathScore) {
+		if(mathScore >= 0 && mathScore <= 10)
+			this.mathScore = mathScore;
+	}
+	
+	
+
+	public int getPhysicsScore() {
+		return physicsScore;
+	}
+
+	public void setPhysicsScore(int physicsScore) {
+		if(physicsScore >= 0 && physicsScore <= 10)
+			this.physicsScore = physicsScore;
+	}
+
+	public String getUniversityName() {
+		return universityName;
+	}
+
+	public void setUniversityName(String universityName) {
+		this.universityName = universityName;
+	}
+	
+	@Override
+	public void getInfo() {
+		super.getInfo();
+		System.out.println("University: " + getUniversityName());
+	}
+	
+	public float gpaCalculation()
+}

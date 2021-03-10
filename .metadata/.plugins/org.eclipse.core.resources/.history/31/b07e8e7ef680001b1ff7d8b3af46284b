@@ -1,0 +1,19 @@
+package oop.exercise.lesson1;
+
+public class Staff extends Manager {
+
+	private String task;
+
+	public Staff(String fullName, int age, String gender, String address, String scopeOfWork) {
+		super(fullName, age, gender, address);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public String getScopeOfWork() {
+		return task;
+	}
+
+	public void setScopeOfWork(String scopeOfWork) {
+		this.task = scopeOfWork;
+	}
+}

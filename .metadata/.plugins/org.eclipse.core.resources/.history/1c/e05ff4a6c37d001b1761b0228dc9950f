@@ -1,0 +1,16 @@
+package laptrinhhuongdoituong.lesson.learning;
+
+class LapTrinhHuongDoiTuong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person a = new Person();
+		a.name = "Quoc";
+		a.age = 29;
+		a.height = 1.65f;
+		a.Eat("Com tam");
+		
+		int age = a.getAge();
+	}
+
+}

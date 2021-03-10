@@ -1,0 +1,39 @@
+package mypackage.lesson.learning;
+
+public class Student extends Person {
+
+	private String universityName;
+	
+	public Student(String name, int age, float height, String universityName) {
+		super(name, age, height);
+		// TODO Auto-generated constructor stub
+		this.setUniversityName(universityName);
+	}
+
+	public String getUniversityName() {
+		return universityName;
+	}
+
+	public void setUniversityName(String universityName) {
+		this.universityName = universityName;
+	}
+	
+	@Override
+	public void getInfo() {
+		super.getInfo();
+		System.out.println("University: " + getUniversityName());
+	}
+	
+	public float gpaCalculation(float mathScore, float physicsScore) {
+		return (mathScore + physicsScore) / 2;
+	}
+	
+	public float gpaCalculation(int mathScore, int physicsScore) {
+		return (mathScore + physicsScore) / 2;
+	} 
+	
+	public int gpaCalculation(float mathScore, float physicsScore, float chemistryScore) {
+		return (mathScore + physicsScore + chemistryScore) / 3;
+	}
+	
+}

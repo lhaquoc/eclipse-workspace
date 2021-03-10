@@ -1,0 +1,18 @@
+package laptrinhhuongdoituong.lesson.learning;
+
+import mypackage.lesson.learning.Person;
+
+class LapTrinhHuongDoiTuong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person a = new Person("Quoc", 29, 1.65f, "0902090203");
+		
+		a.Eat("Com tam");
+		
+		
+		int age = a.getAge();
+		System.out.println("His age: " + age);
+	}
+
+}

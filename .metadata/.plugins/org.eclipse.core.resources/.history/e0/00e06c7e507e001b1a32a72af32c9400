@@ -1,0 +1,13 @@
+package mypackage.lesson.learning;
+
+public class Student extends Person {
+
+	private String universityName;
+	
+	public Student(String name, int age, float height, String phoneNumber, String universityName) {
+		super(name, age, height, phoneNumber);
+		// TODO Auto-generated constructor stub
+		this.universityName = universityName;
+	}
+	
+}
